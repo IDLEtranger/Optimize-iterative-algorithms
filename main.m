@@ -1,4 +1,6 @@
-% 赵钰哲 122020910396
+clear
+clc
+
 [rosenbrock_SteepestDescent_result, beale_SteepestDescent_result, goldstein_SteepestDescent_result] = result_output(@steepest_descent);
 
 [rosenbrock_DampedNewton_result, beale_DampedNewton_result, goldstein_DampedNewton_result] = result_output(@damped_newton);
